@@ -1,0 +1,153 @@
+body{
+    padding: 20px 20px;
+}
+
+.container{
+    /* border: 2px solid; */
+    background-color: #F3F5FC;
+    height: 70em;
+    width: 100%;
+    padding: 10px;
+}
+.titulo{
+    margin-top: .5em;
+    text-align: center;
+    /* border: 1px solid; */
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+.logo{
+    background-image: url(imagenes/Logo.png);
+    background-repeat: no-repeat;
+    margin-top: -60px;
+    width: 30%;
+    height: 10%;
+    position: absolute;
+    
+      
+}
+.right{
+    width: 400px;
+    height: 940px;
+    float: right;
+    /* border: 2px solid; */
+    border-radius: 32px;
+    background-color: lightcoral;
+    margin-right: 40px;
+   
+
+    /* White */
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.411);
+border-radius: 32px;
+}
+.right h1{
+    text-align: center;
+   
+}
+.right p{
+   
+    width: 336px;
+    
+    
+    margin-top: 100%;
+    margin-left: 5%;
+    /* border: 2px solid; */
+    font-family: Arial, Helvetica, sans-serif;
+   
+    font-weight: 700;
+    font-size: 24px;    
+    text-align: center;
+
+    /* Gray/gray-500 */
+
+    color: #343A40;
+
+}
+
+
+.left{
+    width: 400px;
+    height: 400px;
+    float: left;
+    
+    border-radius: 32px;
+    
+    margin: 5%;
+}
+.left p{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+}
+.right textarea{
+    background: #ffffff;
+    border: none;
+    margin: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botones{
+    /* border: 2px solid; */
+    float:left;
+    margin: 10px 10px;
+}
+.botones p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 10px;
+}
+.boton1{
+    color: whitesmoke;
+    background-color: #0A3871;
+    height: 67px;
+    width: 328px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    padding: 24px;
+
+    
+    
+
+}
+.boton2{
+    background-color:  #D8DFE8;
+    color: #0A3871;
+    height: 67px;
+    width: 328px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.imagenFondo{
+    background-image: url(imagenes/Muñeco.png);
+}
