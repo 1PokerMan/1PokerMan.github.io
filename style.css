@@ -14,7 +14,7 @@ body{
     text-align: center;
     /* border: 1px solid; */
     font-family: Arial, Helvetica, sans-serif;
-   
+    color: #0A3871;
     
 }
 .logo{
@@ -150,4 +150,12 @@ border-radius: 32px;
 
 .imagenFondo{
     background-image: url(imagenes/Muñeco.png);
+}
+
+
+/* En pantallas de 640px de ancho o menos, usar dos columnas en lugar de cuatro */
+@media screen and (max-width: 840px) { 
+    .column {
+       width: 50%;
+   }
 }
