@@ -1,82 +1,39 @@
 body{
     background: lightgreen;
+    margin: 0px;
+    padding: 0px;
 }
 .container{
     margin: auto;
-    width: 1280px;
-    height: 768px;
-    padding: 15px;
-    background: lightblue;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+
 }
 .logo{
-    background-image: url(imagenes/Logo.png);
-    background-repeat: no-repeat;
     width: 100%;
     float: left;
-    border-radius: 5px;
-    border: 1px solid;
-    text-align: center;
-    background-color: lightcoral;
-    
+    background: lightcoral;
 }
 .left{
-    float: left;
-    margin-top: 5px;
-    width: 60%;
-    height: 60%;
-    border-radius: 5px;
-    border: 1px solid;
-    background: lightgoldenrodyellow;
-}
-.right{
-    background-image: url(imagenes/Muñeco.png);
-    background-repeat: no-repeat;
     float: right;
-    margin-top: 5px;
-    width: 39%;
-    height: 80%;
-    border-radius: 25px;
-    border: 1px solid;
-    background: #FFFFFF;
-    
-    /* width: 400px;
-    height: 944px;
-    top: 40px;
-    left: 1000px;
-    border-radius: 32px;
-    background-color: lightsalmon;
-    position: absolute;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;; */
-}
-.botones{
-    float: left;
-    margin-top: 5px;
-    width: 60%;
-    height: 19%;
-    border-radius: 5px;
-    border: 1px solid;
-    background: lime;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: lightpink;
 }
 .boton1{
     float: left;
-    margin:2.5em ;
-    width: 30%;
-    height: 30%;
+    width: 70%;
+    height: auto;
     border-radius: 24px;
-    background-color: #0A3871;
-    color: whitesmoke;
-    
-    
+    background: lightskyblue;
 }
-.boton2{
-    float: right;
-    margin:2.5em ;
-    width: 30%;
-    height: 30%;
-    border-radius: 24px;
-    background-color: lightblue;
-    color: #0A3871;
-    
-    
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+.title{
+    float: inherit;
 }
