@@ -26,9 +26,11 @@ body{
     padding: 1%;
     width: 60%;
     font-family: Arial;
-    font-size: 26px;
+    font-size: 32px;
     text-align: center;
     /* border: 1px solid; */
+    font-weight: bold;
+    color: #0A3871;
 }
 .cuerpo{
 	position: absolute;
@@ -63,12 +65,12 @@ body{
 /* PARTE DERECHA DE LA PAGINA, CONFIGURACION COMPLETA*/
 .right{
     float: right;
-	left: 65%;
-	
+	left: 60%;
+	position: absolute;
 /* 	border: 1px solid;
     border-radius: 24px; */
 	width: 25%;
-	height: 65%;
+	height: 85%;
 	padding: 2%;
     margin-top: 5%;
 /*---------------------*/
@@ -153,4 +155,9 @@ body{
     font-weight: bold;
     
 
+}
+.pie{
+    position: absolute;
+    top: 100%;
+    left: 25%;
 }
