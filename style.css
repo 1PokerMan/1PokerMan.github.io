@@ -5,7 +5,7 @@ body{
 
 .container{
     /* border: 2px solid; */
-    background-color: #F3F5FC;
+    background-color: #f8f7f7;
     height: 70em;
     width: 100%;
     padding: 10px;
@@ -38,15 +38,15 @@ body{
     border-radius: 32px;
     
     margin-right: 40px;
-   
+/* 
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.137);
+    border-radius: 32px; */
+    border-radius: 24px;
+    background: linear-gradient(145deg, #fcf9f9, #e0e0e0d7);
+    box-shadow:  10px 10px 20px #989898,
+                -10px -10px 20px #ffffff;
 
-    /* White */
-
-background: #FFFFFF;
-/* shadow */
-
-box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.137);
-border-radius: 32px;
 }
 .right h1{
     text-align: center;
@@ -118,6 +118,10 @@ border-radius: 32px;
     border: none;
     margin: 10%;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 24px;
+    background: #fafafa;
+    box-shadow: inset 5px 5px 10px #b4b4b4,
+                inset -5px -5px 10px #ffffff;
 }
 #result{
     background-color: thistle;
@@ -135,6 +139,7 @@ border-radius: 32px;
     position: absolute;
     top: 94%;
     left: 15%;
+    
     
 }
 .patter{
@@ -156,9 +161,14 @@ border-radius: 32px;
     width: 328px;
     left: 0px;
     top: 0px;
-    border-radius: 24px;
+    
     padding: 24px;
     margin: 0 20px;
+    border-radius: 24px;
+    background: linear-gradient(145deg, #456794, #7c9ec5);
+    box-shadow:  5px 5px 10px #bababa,
+                -5px -5px 10px #ffffff;
+    
 }
 .boton2{
     background-color:  #D8DFE8;
@@ -169,6 +179,10 @@ border-radius: 32px;
     top: 0px;
     border-radius: 24px;
     padding: 24px;
+    border-radius: 24px;
+    background: linear-gradient(145deg, #f0f0f0, #b4cee2);
+    box-shadow:  5px 5px 10px #bababa,
+                -5px -5px 10px #ffffff;
 }
 
 .imagenFondo{
