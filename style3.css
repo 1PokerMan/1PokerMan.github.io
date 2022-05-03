@@ -16,13 +16,15 @@ body{
     background-image: url(imagenes/Logo.png);
     background-repeat: no-repeat;
     margin: 1%;
+    position: absolute;
+    top: 5%;
     
     /*border solo para verificar posiciones*/
     /* border: 1px solid; */
 }
 .titulo{
     position: absolute;
-    left: 20%;
+    left: 12%;
     top: 2%;
     padding: 1%;
     width: 60%;
@@ -36,11 +38,11 @@ body{
 .cuerpo{
 	position: absolute;
 	margin: 1.5%;
-	/* width: 95%; */
-    width: 1280px;
-	/* height: 95%; */
-    height: 950px;
-    border-radius: 10px;	/* border: 1px solid; */
+	/* border: 1px solid; */
+    width: 1440px;
+	
+    height: 1024px;
+    border-radius: 10px;	
 	background-color: #e3e8f7af;
     box-shadow:  9px 14px 16px 0px #a1a1a1d0,
                 -22px -22px 33px #ffffffc7;
@@ -194,6 +196,79 @@ body{
     font-weight: bold;
 }
 
-@media screen {
-    
+@media screen and (max-width: 768px) {
+    .titulo{
+        left: 20%;
+    }
+    .cuerpo{
+        width: 768px;
+    }
+    .right{
+        left: 4%;
+        top: 65%;
+        width: 90%;
+        height: 25%;
+    }
+    .btn-primary.botoncopiar{
+        top: 75%;
+        left: 5%;
+    }
+    .left{
+        width: 85%;
+        height: 5%;
+        top: 60%;
+        left: 3%;
+    }
+    .indicador{
+        top: 57%;
+        left: 5%;
+    }
+    .vector{
+        top: 57%;
+        left: 2%;
+    }
+    .textoingreso{
+        left: 5%;
+        top: 20%;
+    }
+    .imagen{
+        display: none;
+    }
+}
+@media screen and (max-width: 375px) {
+    .logo{
+        top: 2%;
+        margin-left: -20px;
+    }
+    .textoingreso{
+        left: 2%;
+        top: 15%;
+    }
+    .indicador{
+        top: 40%;
+    }
+    .vector{
+        top: 40%;
+    }
+    .right{
+        left: 1%;
+        top: 65%;
+        width: 45%;
+        height: 20%;
+    }
+    .btn-primary.boton1{
+        width: 45%;
+        position: fixed;
+        top: 24%;
+        left: 1%;
+    }
+    .btn-primary.boton2{
+        width: 45%;
+        position: fixed;
+        top: 28%;
+        left: 1%;
+    }
+    .btn-primary.botoncopiar{
+        top: 65%;
+    }
 }
