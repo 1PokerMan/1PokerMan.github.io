@@ -258,17 +258,22 @@ body{
     }
     .btn-primary.boton1{
         width: 45%;
-        position: fixed;
-        top: 24%;
+        position: absolute;
+        top: -315%;
         left: 1%;
     }
     .btn-primary.boton2{
         width: 45%;
-        position: fixed;
-        top: 28%;
+        position: absolute;
+        top: -180%;
         left: 1%;
     }
     .btn-primary.botoncopiar{
         top: 65%;
+    }
+    .pie{
+        left: 1%;
+        width: 45%;
+        text-align: center;
     }
 }
