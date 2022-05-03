@@ -99,9 +99,11 @@ body{
     border: none;
     background-color: #d8dfe800;
 }
-.botoncopiar{
+.btn-primary.botoncopiar{
     width: 100%;
     height: 50px;
+    color: black;
+    font-weight: bold;
     border-radius: 24px;
     border: 2px solid #0A3871;
     background-color: #e6e8f0;
@@ -127,10 +129,10 @@ body{
 }
 .vector{
     position: absolute;
-    top: 72%;
+    top: 70%;
     left: 3%;
 }
-.boton1{
+.btn-primary.boton1{
 	width: 50%;
 	height: 50px;
 	position: absolute;
@@ -141,8 +143,14 @@ body{
     background-color: #0A3871;
     color: white;
     font-weight: bold;
+    border-style: outset;
+    transform: scale(1);
 }
-.boton2{
+.boton1:hover{
+    border-style: inset;
+    transform: scale(0.99);
+}
+.btn-primary.boton2{
 	width: 50%;
 	height: 50px;
 	position: absolute;
@@ -153,8 +161,13 @@ body{
     background-color: #D8DFE8;
     color: #0A3871;
     font-weight: bold;
+    border-style: outset;
+    transform: scale(1);
     
-
+}
+.boton2:hover{
+    border-style: inset;
+    transform: scale(0.99);
 }
 .pie{
     position: absolute;
