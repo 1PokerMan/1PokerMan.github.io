@@ -118,6 +118,10 @@ body{
     position: static;
     width: 95%;
 }
+.ingresartextoright:enabled{
+    color: red;
+    font-weight: bold;
+}
 .btn-primary.botoncopiar{
     width: 90%;
     height: 50px;
@@ -131,7 +135,7 @@ body{
     border-style: outset;
     transform: scale(1);
     position: absolute;
-    /* display: none; */
+    display: none;
 }
 .botoncopiar:hover{
     border-style: inset;
@@ -230,6 +234,7 @@ body{
     .textoingreso{
         left: 5%;
         top: 20%;
+        height: 30%;
     }
     .imagen{
         display: none;
@@ -243,6 +248,8 @@ body{
     .textoingreso{
         left: 2%;
         top: 15%;
+        width: 43%;
+        height: 20%;
     }
     .indicador{
         top: 40%;
@@ -252,7 +259,7 @@ body{
     }
     .right{
         left: 1%;
-        top: 65%;
+        top: 55%;
         width: 45%;
         height: 20%;
     }
