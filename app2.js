@@ -1,21 +1,18 @@
 
   
 const encriptar = () => {
-  var texto = document.querySelector('.textoingreso').value.toLowerCase();
-  //i es para que afecte a tanto mayus como minus
-  //g afecta a toda la linea
-  //m afecta a multiples lineas
-  var txtcifrado = texto.replace(/e/igm,"enter");
-  var txtcifrado = txtcifrado.replace(/o/igm,"ober");
-  var txtcifrado = txtcifrado.replace(/i/igm,"imes");
-  var txtcifrado = txtcifrado.replace(/a/igm,"ai");
-  var txtcifrado = txtcifrado.replace(/u/igm,"ufat");
-  document.querySelector(".imagen").style.display = "none";
-  document.querySelector(".mensajeizquierdo").style.display = "none";
-  document.querySelector(".botoncopiar").style.display = "show";
-  document.querySelector(".ingresartextoright").textContent = txtcifrado;
-  document.querySelector(".textoingreso").textContent = " ";
-  document.querySelector(".botoncopiar").style.display = "inherit";
+    var texto = document.querySelector('.textoingreso').value.toLowerCase();
+    var txtcifrado = texto.replace(/e/igm,"enter");
+    var txtcifrado = txtcifrado.replace(/o/igm,"ober");
+    var txtcifrado = txtcifrado.replace(/i/igm,"imes");
+    var txtcifrado = txtcifrado.replace(/a/igm,"ai");
+    var txtcifrado = txtcifrado.replace(/u/igm,"ufat");
+    document.querySelector(".imagen").style.display = "none";
+    document.querySelector(".mensajeizquierdo").style.display = "none";
+    document.querySelector(".botoncopiar").style.display = "show";
+    document.querySelector(".ingresartextoright").textContent = txtcifrado;
+    document.querySelector(".textoingreso").textContent = " ";
+    document.querySelector(".botoncopiar").style.display = "inherit";
 }
 
 const desencriptar = () => {
