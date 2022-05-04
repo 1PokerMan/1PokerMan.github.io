@@ -1,5 +1,4 @@
 
-  
 const encriptar = () => {
     var texto = document.querySelector('.textoingreso').value.toLowerCase();
     var txtcifrado = texto.replace(/e/igm,"enter");
@@ -29,7 +28,6 @@ const desencriptar = () => {
     document.querySelector(".textoingreso").textContent = " ";
     document.querySelector(".botoncopiar").style.display = "inherit";
 }
-
   
 const copiar = () => {
     var contenido = document.querySelector(".ingresartextoright");
